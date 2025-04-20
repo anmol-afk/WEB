@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: solid;
+}
+
+.box1 {
+    background-color: crimson;
+    /* ? translate */
+    transform: translateX(100px);
+    transform: translateY(150px);
+    transform: translate(100px, 150px);
+    transform: translate(100px);
+
+    /* ? scale */
+    transform: scaleX(4);
+    /* margin: 50px auto;
+    transform: scaleX(2);
+    transform: scaleY(0.5);
+    transform: scale(2, 0.5);
+    transform: scale(0.5); */
+
+    /* ? skew */
+    margin: 50px auto;
+    transform: skewX(0deg);
+    transform: skewY(0deg);
+    transform: skew(0deg);
+
+    /* ? rotate */
+    margin: 50px auto;
+    background-image: url();
+    transform: rotate(0deg);
+
+    transform: translate(200px, 200px) scale(1.5) skew(30deg, 25deg) rotate(-25deg);
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+#mainContainer {
+    border: solid red;
+    height: 500px;
+    width: 50vw;
+}
+
+#mainContainer article{
+    height: 50%;
+    width: 50%;
+    border: solid blue;
+}
+
+#mainContainer article div {
+    border: solid green;
+    height: 50%;
+    width: 50%;
+}
+
+#textContainer article{
+    field-size:;
+}

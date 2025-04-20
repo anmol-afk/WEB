@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #mainContainer {
+    height: 500px;
+    /* width: 800px; */
+    background-color: bisque;
+    border: solid red;
+  
+    display: grid;
+    /* grid-template-columns: column1width column2width column3width etc; */
+    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 100px 150px 250px;
+    grid-template-columns: 150px 500px 150px;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 200px 200px auto;
+    grid-template-columns: repeat(4, auto);
+    /* grid-template-columns: auto 3fr auto auto; wrong values */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr repeat(3, auto) 1fr;
+    grid-template-columns: 200px repeat(3, auto);
+    grid-template-columns: 1fr 3fr 6fr;
+    /* grid-template-columns: repeat(6, auto); */
+    grid-template-columns: repeat(6, 1fr);
+  
+    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 100px 100px 200px;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(4, 1fr);
+  
+    row-gap: 10px;
+    column-gap: 30px;
+    gap: 10px 30px;
+    gap: 5px;
+  }
+  
+  #mainContainer div {
+    /* height: 100px; */
+    width: 100px;
+    background-color: chocolate;
+    border: solid blue;
+  }
+  
+  /* ================================ */
+  
+  #secondMainContainer {
+    height: 500px;
+    width: 800px;
+    /* background-color: bisque; */
+    /* border: solid red; */
+    margin: 50px auto;
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr) 0.5fr repeat(3, 1fr);
+    grid-template-areas:
+      "1fr 0.5fr 1fr 1fr";
+    gap: 10px;
+  }
+  
+  #secondMainContainer div {
+    color: black;
+    font-size: xx-large;
+    border: solid black !important;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  #secondMainContainer div:nth-child(1) {
+    background-color: chocolate;
+    border: solid;
+  
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  
+  #secondMainContainer div:nth-child(2) {
+    background-color: lavender;
+    border: solid;
+  
+    /* grid-row-start: 2; */
+    grid-row-end: 3;
+    /* grid-column: start/end; */
+    grid-column: 1 / 5;
+  }
+  
+  #secondMainContainer div:nth-child(3) {
+    background-color: yellow;
+    border: solid;
+  
+    /* grid-row: 3/5;
+       grid-column: 1/3; */
+  
+    /* grid-area: row-start / column-start / row-end / column-end; */
+    grid-area: 3 / 1 / 5 / 3;
+  }
+  
+  #secondMainContainer div:nth-child(4) {
+    background-color: darkgreen;
+    border: solid;
+  
+    grid-area: 3 / 3 / 5 / 5;
+  }
+  
+  #secondMainContainer div:nth-child(5) {
+    background-color: pink;
+    border: solid;
+  
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  

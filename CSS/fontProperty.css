@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Boldonse&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Ponomar&family=Tektur:wght@400..900&display=swap');
+
+
+
+#mypara1{
+    font-size: large ;
+    /* IT WILL SPECIFY THE SIZE OF THE TEXT CONTENT 
+    VALUES:number , ;large , xx-small , x-large, normal , xx-large */
+
+    font-style: italic;
+    /* It will specify  the style of text content
+    values: normal(default) italic oblique */
+
+    font-weight: 400;
+    /* It will specify the  boldness of text content 
+    values: any value(100 to 900) or  bold bolder thin lighter normal  */
+
+    font-variant: small-caps;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.para1{
+    font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100
+}
+
+.para2{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.para3{
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.para4{
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.para5{
+    font-family: "Big Shoulders Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.para6{
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.para7{
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+.para8{
+    font-family: "Ponomar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.para9{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.para10{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}

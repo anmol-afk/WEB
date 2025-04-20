@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box {
+    height: 200px;
+    width: 200px;
+    border: solid;
+    background-color: purple;
+
+    animation-name: positionChangeOne;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation-delay: 1s;
+
+    transform: translate(0px, 0px);
+}
+
+@keyframes colorChange {
+    from {
+        background-color: purple;
+    }
+
+    to {
+        background-color: red;
+        border-radius: 50%;
+    }
+}
+
+@keyframes positionChange {
+    from {
+        background-color: purple;
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        background-color: purple;
+        transform: translate(100px, 100px);
+    }
+}
+
+@keyframes positionChangeOne {
+    0% {
+        background-color: purple;
+        transform: translate(0px, 0px);
+    }
+    12% {
+        background-color: green;
+        transform: translate(514px, 196px);
+    }
+    25% {
+        background-color: green;
+        transform: translate(1028px, 0px);
+        border-radius: 50%;
+    }
+    37% {
+        background-color: red;
+        transform: translate(514px, 196px);
+    }
+    50% {
+        background-color: yellow;
+        transform: translate(1028px, 392px);
+        border-radius: 0%;
+    }
+    62% {
+        background-color: red;
+        transform: translate(514px, 196px);
+    }
+    75% {
+        background-color: blue;
+        transform: translate(0px, 392px);
+        border-radius: 50%;
+    }
+    87% {
+        background-color: red;
+        transform: translate(514px, 196px);
+    }
+    100% {
+        background-color: black;
+        transform: translate(0px, 0px);
+        border-radius: 0%;
+    }
+}

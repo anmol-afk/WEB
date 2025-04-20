@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#containerOne{
+    color: white;   
+    /*border: solid red;*/
+}
+
+div {
+    /*border: 1px solid blue;*/
+    background-color: teal;
+    display: inline-block;
+    height: 30px;
+    width: 149px;
+    text-align: center;
+    padding: 5px;
+}
+
+div:hover {
+    background-color: rgb(3, 62, 62);
+}
+
+#box1 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 100px auto;
+    box-shadow: 0px 0px 20px 10px gray inset;
+    border-radius: 10px;
+}
+
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 100px auto;
+    box-shadow: 10px 10px 20px 10px blue inset;
+    border-radius: 10px;
+}
+
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 100px auto;
+    box-shadow: 0px 20px 20px 10px red inset;
+    border-radius: 10px;
+}
+
+#box4 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 100px auto;
+    box-shadow: 0px 20px 20px 10px yellowgreen;
+    border-radius: 10px;
+}
+
+#box5 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 100px auto;
+    box-shadow: 0px 20px 20px 10px gold;
+    border-radius: 10px;
+}
+
+#box6 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#box7 {
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+        webkit-box-shadow: 30px -16px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 30px -16px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 30px -16px 19px 0px rgba(0,0,0,0.75);
+}
+
+#box8 {
+    height: 250px;
+    width: 250px;
+    margin: 100px auto;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+#box9 {
+    height: 300px;
+    width: 300px;
+    margin: 100px auto;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+

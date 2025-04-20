@@ -1,0 +1,34 @@
+p::before {
+    content: "Mr. ";
+}
+
+p::after {
+    content: " John Doe";
+}
+
+div::selection {
+    color: pink;
+    background-color: burlywood;
+}
+
+li::marker {
+    color: red;
+}
+
+div::first-letter {
+    color: blue;
+}
+
+div::first-letter{
+    color: red;
+    font-size: 40px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 40px;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#NavBarOne {
+    /* border:solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+#NavBarOne .leftPart {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NavBarOne .rightPart {
+    /* border: solid blue; */
+    display: flex;
+    gap: 10px;
+}
+
+#NavBarOne .rightPart div{
+    /* border: solid green; */
+    padding: 10px;
+}
+
+/* ! ========================== normal nav bar ======================= ! */
+#normalNavBar {
+    /* border: solid red; */
+    margin-top: 50px;
+    display: flex;
+}
+
+#normalNavBar div {
+    /* border: solid blue; */
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+}
+
+#normalNavBar div:hover {
+    background-color: rgb(9, 188, 188);
+}
+

@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #04AA6D;
+    font-size: 24px;
+  }
+  
+  /* .logo-text {
+    font-size: 12px;
+    color: #555;
+    margin-left: 5px;
+  } */
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .menu > div {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signup {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .login {
+    background-color: #e7f9f1;
+    color: #333;
+  }
+
+  #w3schools {
+    /* border: solid red; */
+    margin-top: 0px;
+    display: flex;
+    height: 40px;
+    margin-bottom: 50px;
+  }
+  
+  #w3schools div {
+    /* border: solid blue; */
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #1d2a35;
+    color: white;
+  
+    /* background-color: #61AFF1; */
+  }
+  
+  #w3schools div:hover {
+    background-color: #000;
+  }
+
+  #fontawesome {
+    /* border: solid green; */
+    margin-top: 0px;
+    display: flex;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+
+  .navbar {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 12px 24px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left, .right {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: #5c6b8a;
+  }
+  
+  .center {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .center a {
+    text-decoration: none;
+    color: #5c6b8a;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.2s;
+  }
+  
+  .center a:hover {
+    color: #1f3f7f;
+  }
+
+/* Top Orange Bar */
+.top-bar {
+  background-color: #f28520;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.top-bar .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-bar .right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Main Navbar */
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border: 6px solid #f28520;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid black;
+  transform: rotate(-40deg);
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

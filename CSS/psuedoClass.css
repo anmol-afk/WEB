@@ -1,0 +1,119 @@
+/*
+p:hover {
+    color: white;
+    background-color: teal;
+}
+
+h1 {
+    color: crimson;
+}
+
+h1:hover {
+    text-align: center;
+    color: blue;
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+}
+
+#box1:hover {
+    height: 100px;
+    width: 500px;
+    background-color: red;
+}
+*/
+
+/*
+#containerOne
+div:first-child{ 
+color:blue;}
+*/
+
+/*
+#containerOne div:last-child{
+    color: red;
+}
+
+#contianerOne div:nth-child(2){
+    color:blueviolet;
+}
+*/
+
+/*
+#containerOne div:nth-child(2),
+#containerOne div:nth-child(4),
+#containerOne div:nth-child(6) {
+ color: blue;
+}
+*/
+/*
+#containerOne div:nth-child(even){
+color: white
+background-color: blue;
+}
+
+#containerOne div:nth-child(odd){
+color: white
+background-color: rgba(34, 34, 135, 0.346);
+}
+*/
+
+/*
+#containerOne div:nth-child(5n+1){
+    color: white;
+    background-color: blue;
+}
+*/
+
+#mainContainer :first-child{
+    color: white;
+    background-color: blue;
+}
+
+#mainContainer :first-child{
+    background-color: chocolate;
+}
+
+#mainContainer :last-of-type{
+    background-color: tomato;
+}
+
+#mainContainer :nth-of-type(2) {
+    background-color: cornflowerblue;
+}
+
+
+#myInfo {
+    display: none;
+    color: blue;
+}
+
+#showMore:checked + #myInfo {
+    display: block;
+    color: red;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+    background-color: chocolate;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+    background-color: bisque;
+}
+
+table tr:nth-child(odd) td:nth-child(odd) {
+    background-color: chocolate;
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+    background-color: bisque;
+}
+
+#myName:focus,
+#myEmail:focus,
+#myMobileNo:focus {
+    color: blue;
+}

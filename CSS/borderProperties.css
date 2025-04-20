@@ -1,0 +1,48 @@
+#box1 {
+    height: 200px;
+    width: 200px;
+
+    border-width: 30px;
+    border-style: groove;
+    border-color: red;
+
+    border-top: 3px solid red;
+    border-bottom: 3px dotted blue;
+    border-left: 10px dashed green;
+    border-right: 10px groove orangered;
+}
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    
+    border: solid;
+    border-radius: 10px;
+}
+
+#shape1 {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-radius: 50%;
+}
+
+#shape2 {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-radius: 50%;
+}
+
+#shape3 {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-radius: 50%;
+    border-color: aqua;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}

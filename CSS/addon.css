@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    /* border: solid red; */
+
+    display: flex;
+    width: 850px;
+    margin: auto;
+}
+
+#container div {
+    border: 1px solid;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+
+    min-width: 120px;
+    width: 150px;
+    max-width: 200px;
+}
+
+#products {
+    
+}
