@@ -1,39 +1,63 @@
+// // console.log("Start");
+
+// // var a = 10;
+// // var b = 20; 
+
+// // function addition1() {
+// //     var a =1;
+// //     var b = 2;
+// //     return a+b;
+// // }
+
+// // function addition2() {
+// //     var a = 30;
+// //     var b = 40;
+// //     return a+b;
+// // }
+
+// // console.log(addition1());
+// // console.log(addition2());
+
+// // console.log("End");
+
+// // ? Anonymous Functions
 // console.log("Start");
 
-// var a = 10;
-// var b = 20; 
+// console.log(sayHello); // entire function
 
-// function addition1() {
-//     var a =1;
-//     var b = 2;
-//     return a+b;
+// function sayHello() {
+//     return "Hii I am from named function";
 // }
 
-// function addition2() {
-//     var a = 30;
-//     var b = 40;
-//     return a+b;
-// }
+// console.log(sayHello);  // entire function
 
-// console.log(addition1());
-// console.log(addition2());
+// // --------------------------------------
 
-// console.log("End");
+// let greet = function () {
+//     return "Hello how are you";
+// };
+// console.log(greet); // entire function
 
-// ? Anonymous Functions
-console.log("Start");
+// ? Case 2;
+console.log("Start")
+function grandParent() {
+    var gp = 80;
+    var a = 10;
+    var b = 20;
+    var c = 30;
 
-console.log(sayHello); // entire function
+    function parent() {
+        var p = 50;
 
-function sayHello() {
-    return "Hii I am from named function";
-}
+        function aniket() {
+            var aniket = -30;
 
-console.log(sayHello);  // entire function
-
-// --------------------------------------
-
-let greet = function () {
-    return "Hello how are you";
-};
-console.log(greet); // entire function
+            var balance_land = gp + p + aniket;
+            return balance_land;
+        }
+        return aniket()
+        }
+        return parent();
+    }
+    console.log(grandParent());
+    console.log("End");
