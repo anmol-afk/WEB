@@ -38,26 +38,46 @@
 // };
 // console.log(greet); // entire function
 
-// ? Case 2;
-console.log("Start")
-function grandParent() {
-    var gp = 80;
-    var a = 10;
-    var b = 20;
-    var c = 30;
+// // ? Case 2;
+// console.log("Start")
+// function grandParent() {
+//     var gp = 80;
+//     var a = 10;
+//     var b = 20;
+//     var c = 30;
 
-    function parent() {
-        var p = 50;
+//     function parent() {
+//         var p = 50;
 
-        function aniket() {
-            var aniket = -30;
+//         function aniket() {
+//             var aniket = -30;
 
-            var balance_land = gp + p + aniket;
-            return balance_land;
+//             var balance_land = gp + p + aniket;
+//             return balance_land;
+//         }
+//         return aniket()
+//         }
+//         return parent();
+//     }
+//     console.log(grandParent());
+//     console.log("End");
+
+
+// ? Case 1;
+function fun1() {
+    function fun2() {
+        function fun3() {
+            return "hii I am from fun3";
         }
-        return aniket()
-        }
-        return parent();
+        return fun3;
     }
-    console.log(grandParent());
-    console.log("End");
+    return fun2;
+}
+
+console.log(fun1()()());
+
+// // ? Case 2;
+// funtion grandParent() {
+
+// }
+// console.log(grandParent()()());
